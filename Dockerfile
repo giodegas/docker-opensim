@@ -9,3 +9,5 @@ ADD install-mono.sh /tmp/install-mono.sh
 RUN /tmp/install-mono.sh
 
 RUN rm /tmp/install-mono.sh
+
+RUN mozroots --import --sync
