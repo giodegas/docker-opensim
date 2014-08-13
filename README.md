@@ -3,4 +3,4 @@
 This Docker image provides a light base install with Mono, for .NET
 development on Linux.
 
-    $ sudo docker run -it derekslager/mono:3.4.0
+    $ sudo docker run -it derekslager/mono:3.6.0
