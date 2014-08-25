@@ -2,9 +2,10 @@ FROM derekslager/mono:3.6.0
 
 MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 
-RUN apt-get update && apt-get -y install git
+# Install OpenSim binary distribution
+RUN wget http://track.opensimulator.org/link_counter.php?url=http://opensimulator.org/dist/opensim-0.8.0.1.tar.gz
 
-# Install OpenSim
-RUN git clone https://github.com/opensim/opensim /usr/src/opensim
+RUN tar zxvf opensim-0.8.0.1.tar.gz
 
-WORKDIR /usr/src/opensim
+WORKDIR opensim-0.8.0.1/bin
+
