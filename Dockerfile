@@ -1,4 +1,4 @@
-FROM derekslager/mono
+FROM derekslager/mono:3.6.0
 
 MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 
