@@ -1,13 +1,8 @@
-FROM debian:jessie
+FROM derekslager/mono
 
-MAINTAINER Derek Slager <derekslager@gmail.com>
+MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 
-RUN apt-get update && apt-get -y install curl bzip2 g++ libgettextpo0 gettext automake autoconf file make libtool
+# Install OpenSim
+RUN git clone https://github.com/opensim/opensim /usr/src/opensim
 
-ADD install-mono.sh /tmp/install-mono.sh
-
-RUN /tmp/install-mono.sh
-
-RUN rm /tmp/install-mono.sh
-
-RUN mozroots --import --sync
+WORKDIR /usr/src/opensim
