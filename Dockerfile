@@ -1,4 +1,4 @@
-FROM giodegas/opensim-bin:master
+FROM giodegas/opensim-bin
 
 MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 
