@@ -6,5 +6,5 @@ deployment on Linux.
 
 The default standalone configuration as described [here](http://opensimulator.org/wiki/Configuration).
 
-    $ sudo docker run giodegas/opensim bin/mono OpenSim.exe
+    $ sudo docker run giodegas/opensim-bin-standalone mono OpenSim.exe
     
