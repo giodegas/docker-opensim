@@ -6,7 +6,7 @@ deployment on Linux.
 
 The default standalone configuration as described [here](http://opensimulator.org/wiki/Configuration).
 
-    $ sudo docker run -n -p 9000:9000 giodegas/opensim-bin-standalone bash
+    $ sudo docker run -it -p 9000:9000 giodegas/opensim-bin-standalone bash
 
 then
 
