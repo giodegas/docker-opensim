@@ -7,4 +7,4 @@ ADD OpenSim.ini OpenSim.ini
 RUN cp config-include/StandaloneCommon.ini.example config-include/StandaloneCommon.ini
 
 #External OpensSim port to connect SL compatible viewers. 
-EXPOSE 9000
+EXPOSE 9000/tcp 9000/udp
