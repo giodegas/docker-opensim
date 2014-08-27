@@ -6,15 +6,11 @@ deployment on Linux.
 
 The default standalone configuration as described [here](http://opensimulator.org/wiki/Configuration).
 
-    $ sudo docker run -it -p 9000:9000 giodegas/opensim-bin-standalone bash
+    $ sudo docker run -it -p 9000:9000/udp -p 9000:9000/tcp giodegas/opensim-bin-standalone mono OpenSim.exe
 
-then
-
-    $ mono OpenSim.exe
-    
-and answer to the basic questions (Region Name, Owner avatar name, estate...).
+and answer to all the basic questions (Region Name, Estate name, Owner avatar name, password, ...).
 
 You should be able to login with a SL compatibile viewer, with the loginuri:
 
-    $ ... (TBD)
+    $ http://127.0.0.1:9000
     
