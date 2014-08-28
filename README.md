@@ -1,8 +1,10 @@
 # mono+opensim
 ## binary distribution standalone configuration
 
+with external mysql/mariadb server at IP 192.168.1.112
+
 This Docker image provides a light base binary install with Mono, for .NET and [OpenSimulator](http://opensimulator.org)
-deployment on Linux.
+deployment on Linux, linked to an external database server that keep persistence.
 
 The default standalone configuration as described [here](http://opensimulator.org/wiki/Configuration).
 
