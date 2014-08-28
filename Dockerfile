@@ -2,6 +2,8 @@ FROM giodegas/opensim-bin-standalone
 
 MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 
+RUN rm config-include/StandaloneCommon.ini
+
 ADD StandaloneCommon.ini config-include/StandaloneCommon.ini
 
 #External OpensSim port to connect SL compatible viewers. 
