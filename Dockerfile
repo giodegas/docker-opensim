@@ -2,7 +2,7 @@ FROM giodegas/opensim-bin-standalone
 
 MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 
-RUN rm config-include/StandaloneCommon.ini
+#RUN rm config-include/StandaloneCommon.ini
 ADD StandaloneCommon.ini StandaloneCommon.ini
 RUN mv StandaloneCommon.ini config-include/StandaloneCommon.ini
 
