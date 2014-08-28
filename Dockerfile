@@ -6,4 +6,4 @@ MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 EXPOSE 9000/tcp 
 EXPOSE 9000/udp
 
-ADD StandaloneCommon.ini config-include/StandaloneCommon.ini.extdb
+ADD StandaloneCommon.ini StandaloneCommon.ini.extdb
