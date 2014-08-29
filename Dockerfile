@@ -2,7 +2,7 @@ FROM giodegas/opensim-bin
 
 MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
 
-ADD OpenSim.ini OpenSim.ini
+ADD OpenSim.ini /opensim-0.8.0.1/bin/OpenSim.ini
 
 RUN cp config-include/StandaloneCommon.ini.example config-include/StandaloneCommon.ini
 
