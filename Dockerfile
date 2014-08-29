@@ -1,8 +1,6 @@
-FROM giodegas/opensim-bin
+FROM giodegas/opensim-bin-standalone
 
 MAINTAINER Giovanni De Gasperis <giovanni@giodegas.it>
-
-ADD OpenSim.ini OpenSim.ini
 
 ADD StandaloneCommon.ini.extdb /opensim-0.8.0.1/bin/config-include/StandaloneCommon.ini
 
