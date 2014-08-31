@@ -13,7 +13,7 @@ Suggested usage:
 ### Step 1 
 open bash session inside the docker image
 
-    $ sudo docker run -it -p 9000:9000/udp -p 9000:9000/tcp giodegas/opensim-bin-standalone bash
+    $ sudo docker run -it -p 9000:9000/udp -p 9000:9000/tcp giodegas/osbin-extdb bash
 
 ### Step 2
 if started for the first time:
