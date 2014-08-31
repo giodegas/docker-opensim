@@ -26,6 +26,8 @@ You should be able to login with a SL compatibile viewer, with the loginuri:
     $ http://127.0.0.1:9000
 and answer to all the basic questions (Region Name, Estate name, Owner avatar name, password, ...), but remember to use __97098393-a57d-4e28-90d5-6f185e557c8a__ as regio ID, the same used in the Regions.ini file
 
+_(if you prefer to have your own region ID, fork this repository and change the included Regions.ini file)_
+
 ### Step 3
 else:
 
