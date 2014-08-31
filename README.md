@@ -34,7 +34,7 @@ else:
 (it will connect to the external DB with persistence)
 
 ### Step 4 
-after you are done with building/scripting, to make a backup of your regions, in the OpenSim console:
+after you are done with building/scripting, to make a backup of your region, in the OpenSim console:
 
     $ save oar <OARfileName>.oar
     $ quit
