@@ -116,7 +116,7 @@
 [LoginService]
     WelcomeMessage = "Welcome, Avatar!"
     ;; If you have Gatekeeper set under [Hypergrid], no need to set it here, leave it commented
-    ; GatekeeperURI = "http://127.0.0.1:9000"
+    GatekeeperURI = "http://127.0.0.1:9001"
 
     SRV_HomeURI = "http://127.0.0.1:9001"    
     SRV_InventoryServerURI = "http://127.0.0.1:9001"
@@ -220,7 +220,7 @@
     ; See http://opensimulator.org/wiki/GridInfo
 
     ; login uri: for grid this is the login server URI
-    login = http://127.0.0.1:9000/
+    login = http://127.0.0.1:9001/
 
     ; long grid name: the long name of your grid
     gridname = "the lost continent of hippo"
