@@ -118,15 +118,15 @@
     ;; If you have Gatekeeper set under [Hypergrid], no need to set it here, leave it commented
     ; GatekeeperURI = "http://127.0.0.1:9000"
 
-    SRV_HomeURI = "http://127.0.0.1:9000"    
-    SRV_InventoryServerURI = "http://127.0.0.1:9000"
-    SRV_AssetServerURI = "http://127.0.0.1:9000"
-    SRV_ProfileServerURI = "http://127.0.0.1:9000"
-    SRV_FriendsServerURI = "http://127.0.0.1:9000"
-    SRV_IMServerURI = "http://127.0.0.1:9000"
+    SRV_HomeURI = "http://127.0.0.1:9001"    
+    SRV_InventoryServerURI = "http://127.0.0.1:9001"
+    SRV_AssetServerURI = "http://127.0.0.1:9001"
+    SRV_ProfileServerURI = "http://127.0.0.1:9001"
+    SRV_FriendsServerURI = "http://127.0.0.1:9001"
+    SRV_IMServerURI = "http://127.0.0.1:9001"
 
     ;; For Viewer 2
-    MapTileURL = "http://127.0.0.1:9000/"
+    MapTileURL = "http://127.0.0.1:9001/"
 
     ; The minimum user level required for a user to be able to login.  0 by default
     ; If you disable a particular user's account then you can set their login level below this number.
