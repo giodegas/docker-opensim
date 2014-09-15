@@ -45,3 +45,7 @@ then you can use scp (secure copy through ssh) to save your region backup OAR fi
 
     $ scp <OARfileName>.oar <username>@<host>:.
     
+If you are using [boot2docker](http://boot2docker.io), remember to configure properly the port forwarding table in [Virtual Box](http://www.virtualbox.org) :
+![Port Forwarding table]
+(VBox_portForwarding.png)
+ 
