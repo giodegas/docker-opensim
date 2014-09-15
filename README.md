@@ -1,7 +1,7 @@
 # mono+opensim
 ## binary distribution standalone configuration
 
-with external mysql/mariadb server at an external IP (192.168.1.112)
+with external mysql/mariadb server at an external IP (192.168.10.100)
 
 This Docker image provides a light base binary install with Mono, for .NET and [OpenSimulator](http://opensimulator.org)
 deployment on Linux, linked to an external database server that keep persistence.
@@ -13,7 +13,7 @@ Suggested usage:
 ### Step 1 
 open bash session inside the docker image
 
-    $ sudo docker run -it -p 9000:9000/udp -p 9000:9000/tcp giodegas/osbin-extdb bash
+    $ sudo docker run -it -p 9001:9001/udp -p 9001:9001/tcp giodegas/osbin-extdb bash
 
 ### Step 2
 if started for the first time:
@@ -23,8 +23,8 @@ if started for the first time:
 
 You should be able to login with a SL compatibile viewer, with the loginuri:
 
-    $ http://127.0.0.1:9000
-and answer to all the basic questions (Region Name, Estate name, Owner avatar name, password, ...), but remember to use __97098393-a57d-4e28-90d5-6f185e557c8a__ as regio ID, the same used in the Regions.ini file
+    $ http://127.0.0.1:9001
+and answer to all the basic questions (Region Name, Estate name, Owner avatar name, password, ...), but remember to use __97098393-a57d-4e28-90d5-6f185e557c8a__ as region ID, the same used in the Regions.ini file
 
 _(if you prefer to have your own region ID, fork this repository and change the included Regions.ini file)_
 
