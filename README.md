@@ -1,8 +1,9 @@
 # mono+opensim
 ## binary distribution standalone configuration
-### SharperNight L'Aquila edition
+### SharperNight Virtual World L'Aquila edition
 
-with external mysql/mariadb server at an host IP (192.168.10.100)
+by [Giovanni De Gasperis](http://about.me/giodegas), [Department of Information Engineering and Computer Science and Mathematics](http://www.disim.univaq.it), [University of L'Aquila, ITALY](http://www.univaq.it)
+
 
 This Docker image provides a light base binary install with Mono, for .NET and [OpenSimulator](http://opensimulator.org) deployment on Linux, linked to an external database server that keep persistence.
 This setup has some specific customization, derived from the [default](http://opensimulator.org/wiki/Configuration) standalone OpenSim configuration, that were implemented to be used at the event of [SharperNight](http://sharper-night.lngs.infn.it), 26 September 2014 in [L'Aquila](http://en.wikipedia.org/wiki/L%27Aquila), ITALY.
@@ -50,3 +51,14 @@ If you are using [boot2docker](http://boot2docker.io), remember to configure pro
 ![Port Forwarding table]
 (VBox_portForwarding.png)
  
+# Acknowledgments
+
+This virtual world is an aggregation of many open source 3D objects and creations:
+* [OpenVCE](http://openvce.net/vwassets) Virtual World Assets from  [Artificial Intelligence Applications Institute](http://www.aiai.ed.ac.uk) (AIAI) within the [School of Informatics](http://www.ed.ac.uk/schools-departments/informatics) at the [University of Edinburgh](http://www.ed.ac.uk)
+* [Avatar Island](http://opensim-creations.com/2013/01/18/avatar-island-oar) from [jamiewright](http://opensim-creations.com/members/jamiewright/profile)
+* [ICSI Micromanipulator](http://3dwarehouse.sketchup.com/model.html?id=17b0630d20eb15a74e8b7b742c3e7534) reference model from [khaled](http://3dwarehouse.sketchup.com/user.html?id=0829849543039218507554165)
+* Stem Cells pictures and experiment concept by Biotechnology Laboratory Staff, [University of L'Aquila](http://www.univaq.it)
+* In vitro fertilisation concept by Reproduction Laboratory Staff, [University of L'Aquila](http://www.univaq.it)
+* Borexino 3D reference model by L. Crippa
+* Galaxies pictures from [HubbleSite Gallery](http://hubblesite.org)
+* rest of 3D modeling and LSL/C-sharp scritping by the author
