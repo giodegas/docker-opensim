@@ -2,7 +2,7 @@
 ## binary distribution standalone configuration
 ### SharperNight L'Aquila edition
 
-with external mysql/mariadb server at an external IP (192.168.10.100)
+with external mysql/mariadb server at an host IP (192.168.10.100)
 
 This Docker image provides a light base binary install with Mono, for .NET and [OpenSimulator](http://opensimulator.org) deployment on Linux, linked to an external database server that keep persistence.
 This setup has some specific customization, derived from the [default](http://opensimulator.org/wiki/Configuration) standalone OpenSim configuration, that were implemented to be used at the event of [SharperNight](http://sharper-night.lngs.infn.it), 26 September 2014 in [L'Aquila](http://en.wikipedia.org/wiki/L%27Aquila), ITALY.
@@ -13,6 +13,7 @@ This setup has some specific customization, derived from the [default](http://op
 
 The host should have the following configuration and software installed:
 * 192.168.10.10/24 IP configured in the LAN
+* docker layer (see [boot2docker](http://boot2docker.io) if needed)
 * run a [MariaDB](http://mariadb.org) or (MySql) server
 * run a [Redis](http://redis.io) server
 * have [LeapMotion V2.1.X Tracking beta drivers](http://developer.leapmotion.com) installed
