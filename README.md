@@ -1,6 +1,4 @@
-# mono+opensim
-## binary distribution standalone configuration
-### SharperNight Virtual World L'Aquila edition
+# SharperNight Virtual World L'Aquila Edition
 
 by [Giovanni De Gasperis](http://about.me/giodegas), [Department of Information Engineering and Computer Science and Mathematics](http://www.disim.univaq.it), [University of L'Aquila, ITALY](http://www.univaq.it)
 
@@ -59,6 +57,6 @@ This virtual world is an aggregation of many open source 3D objects and creation
 * [ICSI Micromanipulator](http://3dwarehouse.sketchup.com/model.html?id=17b0630d20eb15a74e8b7b742c3e7534) reference model from [khaled](http://3dwarehouse.sketchup.com/user.html?id=0829849543039218507554165)
 * Stem Cells pictures and experiment concept by Biotechnology Laboratory Staff, [University of L'Aquila](http://www.univaq.it)
 * In vitro fertilisation concept by Reproduction Laboratory Staff, [University of L'Aquila](http://www.univaq.it)
-* Borexino 3D reference model by L. Crippa
+* [Borexino](http://borex.lngs.infn.it) 3D reference model by L. Crippa
 * Galaxies pictures from [HubbleSite Gallery](http://hubblesite.org)
 * rest of 3D modeling and LSL/C-sharp scritping by the author
