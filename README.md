@@ -1,50 +1,46 @@
 # mono+opensim
 ## binary distribution standalone configuration
+### SharperNight L'Aquila edition
 
 with external mysql/mariadb server at an external IP (192.168.10.100)
 
-This Docker image provides a light base binary install with Mono, for .NET and [OpenSimulator](http://opensimulator.org)
-deployment on Linux, linked to an external database server that keep persistence.
+This Docker image provides a light base binary install with Mono, for .NET and [OpenSimulator](http://opensimulator.org) deployment on Linux, linked to an external database server that keep persistence.
+This setup has some specific customization, derived from the [default](http://opensimulator.org/wiki/Configuration) standalone OpenSim configuration, that were implemented to be used at the event of [SharperNight](http://sharper-night.lngs.infn.it), 26 September 2014 in [L'Aquila](http://en.wikipedia.org/wiki/L%27Aquila), ITALY.
 
-The default standalone configuration as described [here](http://opensimulator.org/wiki/Configuration).
+## Suggested usage:
 
-Suggested usage:
+### Step 0
+
+The host should have the following configuration and software installed:
+* 192.168.10.10/24 IP configured in the LAN
+* run a [MariaDB](http://mariadb.org) or (MySql) server
+* run a [Redis](http://redis.io) server
+* have [LeapMotion V2.1.X Tracking beta drivers](http://developer.leapmotion.com) installed
+* run my [LPRedisProducer.py](LPRedisProducer.py) worker
+
+in a separate shell:
+
+    $ python LPRedisProducer.py
+
 
 ### Step 1 
 open bash session inside the docker image
 
-    $ sudo docker run -it -p 9001:9001/udp -p 9001:9001/tcp giodegas/osbin-extdb bash
-
-### Step 2
-if started for the first time:
-
-    $ rm Regions/Regions.ini 
+    $ sudo docker run -it -p 9001:9001/udp -p 9001:9001/tcp giodegas/osbin-sharper bash
     $ mono OpenSim.exe
 
-You should be able to login with a SL compatibile viewer, with the loginuri:
+Avatar: Test User 123
 
-    $ http://127.0.0.1:9001
-and answer to all the basic questions (Region Name, Estate name, Owner avatar name, password, ...), but remember to use __97098393-a57d-4e28-90d5-6f185e557c8a__ as region ID, the same used in the Regions.ini file
 
-_(if you prefer to have your own region ID, fork this repository and change the included Regions.ini file)_
+### Step 2 
+load the SharperLand world:
 
-### Step 3
-else:
+    # load oar SharperLand260914.oar
 
-    $ mono OpenSim.exe
+Then you should be able to login into SharperLan with a SL compatibile viewer, with the loginuri:
 
-(it will connect to the external DB with persistence)
+    http:/192.168.10.100:9001
 
-### Step 4 
-after you are done with building/scripting, to make a backup of your region, in the OpenSim console:
-
-    $ save oar <OARfileName>.oar
-    $ quit
-
-then you can use scp (secure copy through ssh) to save your region backup OAR file to an external IP host:
-
-    $ scp <OARfileName>.oar <username>@<host>:.
-    
 If you are using [boot2docker](http://boot2docker.io), remember to configure properly the port forwarding table in [Virtual Box](http://www.virtualbox.org) :
 ![Port Forwarding table]
 (VBox_portForwarding.png)
