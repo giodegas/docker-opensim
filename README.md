@@ -41,6 +41,10 @@ Then you should be able to login into SharperLan with a SL compatibile viewer, w
 
     http:/192.168.10.100:9001
 
+### Step 3
+
+Remember to use [os-redis-sharp](http://github.com/giodegas/os-redis-sharp) scripts inside virtual objects that you want to move inside OpenSim.
+
 If you are using [boot2docker](http://boot2docker.io), remember to configure properly the port forwarding table in [Virtual Box](http://www.virtualbox.org) :
 ![Port Forwarding table]
 (VBox_portForwarding.png)
