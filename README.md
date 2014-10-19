@@ -1,6 +1,8 @@
 # SharperNight Virtual World L'Aquila Edition
 
-by [Giovanni De Gasperis](http://about.me/giodegas), [Department of Information Engineering and Computer Science and Mathematics](http://www.disim.univaq.it), [University of L'Aquila, ITALY](http://www.univaq.it)
+by [Giovanni De Gasperis](http://about.me/giodegas)
+
+[Department of Information Engineering and Computer Science and Mathematics](http://www.disim.univaq.it), [University of L'Aquila, ITALY](http://www.univaq.it)
 
 
 This Docker image provides a light base binary install with Mono, for .NET and [OpenSimulator](http://opensimulator.org) deployment on Linux, linked to an external database server that keep persistence.
@@ -55,8 +57,8 @@ This virtual world is an aggregation of many open source 3D objects and creation
 * [OpenVCE](http://openvce.net/vwassets) Virtual World Assets from  [Artificial Intelligence Applications Institute](http://www.aiai.ed.ac.uk) (AIAI) within the [School of Informatics](http://www.ed.ac.uk/schools-departments/informatics) at the [University of Edinburgh](http://www.ed.ac.uk)
 * [Avatar Island](http://opensim-creations.com/2013/01/18/avatar-island-oar) from [jamiewright](http://opensim-creations.com/members/jamiewright/profile)
 * [ICSI Micromanipulator](http://3dwarehouse.sketchup.com/model.html?id=17b0630d20eb15a74e8b7b742c3e7534) reference model from [khaled](http://3dwarehouse.sketchup.com/user.html?id=0829849543039218507554165)
-* Stem Cells pictures and experiment concept by Biotechnology Laboratory Staff, [University of L'Aquila](http://www.univaq.it)
-* In vitro fertilisation concept by Reproduction Laboratory Staff, [University of L'Aquila](http://www.univaq.it)
-* [Borexino](http://borex.lngs.infn.it) 3D reference model by L. Crippa
-* Galaxies pictures from [HubbleSite Gallery](http://hubblesite.org)
-* rest of 3D modeling and LSL/C-sharp scritping by the author
+* Stem Cells experiment concept and pictures by [Laboratory of Immunology, Immunopathology and Molecular Pathology](http://www.univaq.it/include/utilities/blob.php?table=laboratorio&id=155&item=scheda) staff, [University of L'Aquila](http://www.univaq.it)
+* In vitro fertilisation concept by Reproduction Laboratory staff, [University of L'Aquila](http://www.univaq.it)
+* [Borexino](http://borex.lngs.infn.it) 3D reference model by L. Crippa and [LNGS](http://www.lngs.infn.it) staff, INFN
+* Astrophisics experiments concept by [LNGS](http://www.lngs.infn.it) starff, galaxies pictures from [HubbleSite Gallery](http://hubblesite.org)
+* all the rest of 3D modeling and LSL/C-sharp scritping is made by the author
