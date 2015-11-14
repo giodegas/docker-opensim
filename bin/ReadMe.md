@@ -1,3 +1,3 @@
 # OpenSim binaries docker images for various purposes
 
-* (generic) : Generic unmodified standalone 
+* [generic](generic) : Generic unmodified standalone 
