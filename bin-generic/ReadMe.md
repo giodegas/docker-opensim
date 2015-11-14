@@ -25,4 +25,4 @@ with a proper LOGIN URI configuration:
     login URL ==> http://<external_ip>:9000
 
 ## More
-To help improve this docker container image : [giodegas/docker-opensim/bin/generic](http://github.com/giodegas/docker-opensim/tree/master/bin/generic)
+To help improve this docker container image : [giodegas/docker-opensim/bin-generic](http://github.com/giodegas/docker-opensim/tree/master/bin-generic)
