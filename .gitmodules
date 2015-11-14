@@ -1,0 +1,3 @@
+[submodule "bin/redis/os-redis-sharp"]
+	path = bin/redis/os-redis-sharp
+	url = https://github.com/giodegas/os-redis-sharp
