@@ -28,4 +28,4 @@ with a proper LOGIN URI configuration:
     login URL ==> http://<external_ip>:9000
 
 ## More
-To help improve this docker container image : [giodegas/docker-opensim/bin/craft](http://github.com/giodegas/docker-opensim/tree/master/bin/craft)
+To help improve this docker container image : [giodegas/docker-opensim/bin/craft](https://github.com/giodegas/docker-opensim/tree/master/bin/craft)
