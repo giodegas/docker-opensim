@@ -2,7 +2,7 @@
 
 A docker image for standard binary distribution of [OpenSimulator](http://opensimulator.org) virtual worlds server pre-configured to work with the [CRAFT](http://www.craft-world.org) grid.
 
-Docker image derived from [docker-opensimulator](http://github.com/QuantumObject/docker-opensimulator) .
+Docker image derived from [docker-opensimulator](https://github.com/QuantumObject/docker-opensimulator) .
 
 ## Usage
 
