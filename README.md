@@ -3,6 +3,6 @@ A collection of [docker](http://www.docker.com) recipe files in order to develop
 
 ## Folders:
 
-* [src](https://github.com/giodegas/docker-opensim/tree/master/src) : sources 
-* [bin](https://github.com/giodegas/docker-opensim/tree/master/bin) : binaries
+* [src](src) : sources 
+* [bin](bin) : binaries
 
